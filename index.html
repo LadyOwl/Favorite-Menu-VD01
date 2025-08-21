@@ -1,10 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Рейтинг любимых блюд</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+        }
+        table {
+            margin: 50px auto; /* по центру */
+            border-collapse: collapse;
+            width: 80%; /* можно регулировать ширину */
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+        }
+        th {
+            background-color: purple;
+            color: white;
+        }
+        img {
+            max-width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
+
+<h2 style="text-align: center;">Рейтинг моих любимых блюд</h2>
+
+<table>
+    <tr>
+        <th>Название блюда</th>
+        <th>Оценка</th>
+        <th>Ссылка на рецепт</th>
+        <th>Фото блюда</th>
+    </tr>
+    <tr>
+        <td>Плов</td>
+        <td>8/10</td>
+        <td><a href="https://1000.menu/cooking/14031-plov-uzbekskii-iz-govyadiny" target="_blank">Рецепт плова</a></td>
+        <td><img src="Плов.jpg" alt="Плов"></td>
+    </tr>
+    <tr>
+        <td>Паста Карбонара</td>
+        <td>9/10</td>
+        <td><a href="https://1000.menu/cooking/13047-pasta-karbonara-s-bekonom-i-slivkami" target="_blank">Рецепт пасты Карбонара</a></td>
+        <td><img src="Паста Карбонара.jpg" alt="Паста Карбонара"></td>
+    </tr>
+    <tr>
+        <td>Вареники с вишней</td>
+        <td>9/10</td>
+        <td><a href="https://1000.menu/cooking/20457-vareniki-s-vishnei-zamorojennoi" target="_blank">Рецепт вареников с вишней</a></td>
+        <td><img src="Вареники с вишней.jpg" alt="Вареники с вишней"></td>
+    </tr>
+    <tr>
+        <td>Свиные рёбрышки</td>
+        <td>10/10</td>
+        <td><a href="https://menunedeli.ru/recipe/svinye-ryobryshki-v-duxovke-v-folge/" target="_blank">Рецепт рёбрышек</a></td>
+        <td><img src="Свиные рёбрышки.jpg" alt="Свиные рёбрышки"></td>
+    </tr>
+    <tr>
+        <td>Печеночный торт</td>
+        <td>7/10</td>
+        <td><a href="https://1000.menu/cooking/20530-pechenochnyi-tort-iz-govyajei-pecheni" target="_blank">Рецепт печёночного тортика</a></td>
+        <td><img src="Печеночный тортик.jpg" alt="Печеночный торт"></td>
+    </tr>
+</table>
 
 </body>
 </html>
